@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,700;1,100;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    
+    <title>NerdDeals - Gerenciador de Cadastro</title>
+</head>
+<body>
+    <div class="grid-container">
+        <header class="header">
+            <img src="assets/logo.svg" alt="Imagem Logo" class="img"/>
+            <button class="btn" > Retornar ao módulo da Loja</button>
+        </header>
+        <section class="menu">
+            <a href="#" class="menu-link" id="cadastroCliente"> Cadastro Cliente</a>
+            <a href="#" class="menu-link" id="cadastroProduto"> Cadastro Produto</a>
+            <a href="#" class="menu-link" id="listaCliente">Buscar Cliente</a>
+            <a href="#" class="menu-link" id="listaProduto">Buscar produtos</a>
+            <button class="btn-menu"> sair</button>
+        </section>
+        <section class="main">
+            <iframe id="frame" src="pages/cadastrocliente.html" class="frame"></iframe>
+        </section>
+        <footer class="footer">
+            teste
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

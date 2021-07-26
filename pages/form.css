@@ -1,0 +1,53 @@
+html{
+    
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    height: 350px;
+    --bg:#3D4556;
+    --color-text:#FFE7E7;
+    --bg-panel:#C487CE;
+    --color-heading: #FC800E;
+    --color-btn: #B030C5;
+  }
+.flex-cadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flex-form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+}
+.flex-form-produto{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px;
+}
+input[type=text], input[type=email], input[type=number], input[type=date]{
+    width: 400px;
+    padding: 10px;
+    border-radius: 2px;
+    border: 0px solid;
+}
+input[type=tel], select{
+    width: 355px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 2px;
+    border: 0px solid;
+}
+.btn-form{
+    width: 25%;
+    height: 40px;
+    border-radius: 8px;
+    background-color: var(--bg-panel);
+    border: solid 0px;
+    text-transform: uppercase;
+    color: var(--color-text);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
